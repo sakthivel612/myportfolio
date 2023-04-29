@@ -3,13 +3,12 @@ a {
   color: white;
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   * {
     width: auto;
-    height: auto;
+    height: auto;    
     text-align: center;
-    /* display: flex; */
     flex-direction: column;
     box-sizing: border-box;
   }
-}
+} */

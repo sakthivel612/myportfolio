@@ -1,8 +1,9 @@
 .topContainer {
-  background: url("../../MyImage/my_image2\ \(2\).jpg");
-  height: 100vh;
+  background: url("../../MyImage/MyImage.jpg");
+  /* width: 100%; */
+  height: 150vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
 }
