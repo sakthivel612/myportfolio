@@ -9,7 +9,7 @@ const ProjectContainer = () => {
       Image:
         "https://png.pngtree.com/thumb_back/fh260/background/20211118/pngtree-technology-round-dashboard-image_908915.jpg",
       title: "STUDENT_TEACHER_DASHBOARD",
-      description: "This project is get data from student and teacher details.",
+      description: "This project is get data are student and teacher details and if we want add the extra details.",
       link: "https://master--voluble-bombolone-cccb6d.netlify.app/",
     },
     {

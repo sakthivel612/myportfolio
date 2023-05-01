@@ -4,7 +4,7 @@ import "./Project.css";
 const Project = ({ Image, title, description, link }) => {
   const [show, setShow] = useState(false);
   return (
-    <a href={link}>
+    <a className="Project_link" href={link}>
       <div
         className="project"
         onMouseEnter={() => setShow(true)}
@@ -16,7 +16,7 @@ const Project = ({ Image, title, description, link }) => {
           <p>{description}</p>
         </div>
         ) : (
-        <img src={Image} />
+        <img src={Image}  alt="project_img"/>
         )}
       </div>
     </a>
