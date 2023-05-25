@@ -2,7 +2,32 @@ a {
   text-decoration: none;
   color: white;
 }
-
+@media screen and (max-width:400px){
+  .header {
+    width: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
+  }
+  .header_left{
+    flex: 0.2% !important;
+  }
+  .header_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_left > h1{
+    width: auto !important;
+  }
+  .header_right > a > h4 {
+    font-size: 12px !important;
+    padding-top: 10px;
+    width: auto !important;
+  }
+}
 @media screen and (max-width: 576px) {
   .header {
     width: auto;
@@ -22,7 +47,7 @@ a {
     
     
   }
-  .header_left > h4{
+  .header_left > h1{
     width: auto !important;
   }
   .header_right > h4 {
